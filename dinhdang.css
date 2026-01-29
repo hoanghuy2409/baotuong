@@ -1,50 +1,51 @@
 /* ===== RESET CƠ BẢN ===== */
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: #f4f6f8;
+    background: #eef3f9;
     margin: 0;
     padding: 20px;
-    color: #333;
+    color: #2c3e50;
 }
 
 /* ===== HEADER ===== */
 .cao {
-    background: linear-gradient(to right, #ff7043, #ff5722);
-    border-radius: 8px;
-    padding: 15px;
-    margin-bottom: 25px;
+    background: linear-gradient(to right, #1e88e5, #1565c0);
+    border-radius: 10px;
+    padding: 18px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 }
 
 .trang_giua {
     text-align: center;
-    color: white;
+    color: #ffffff;
     margin: 6px 0;
 }
 
-/* ===== TIÊU ĐỀ MỤC I, II, III ===== */
+/* ===== TIÊU ĐỀ MỤC ===== */
 .tieude {
     font-weight: bold;
     font-size: 18px;
-    color: #e53935;
-    border-left: 6px solid #e53935;
-    padding-left: 10px;
-    margin: 25px 0 15px;
+    color: #0d47a1;
+    border-left: 6px solid #1e88e5;
+    padding-left: 12px;
+    margin: 30px 0 15px;
 }
 
 /* ===== ĐOẠN VĂN ===== */
 .chutim {
     text-align: justify;
-    line-height: 1.6;
-    background: white;
-    padding: 15px;
-    border-radius: 6px;
-    box-shadow: 0 0 5px rgba(0,0,0,0.08);
+    line-height: 1.7;
+    background: #ffffff;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
 }
 
 /* ===== TRANH ẢNH + VIDEO ===== */
 .noidung {
     text-align: center;
-    margin: 15px 0 25px;
+    margin: 18px 0 30px;
 }
 
 .noidung img {
@@ -52,90 +53,100 @@ body {
     height: 280px;
     object-fit: cover;
     margin: 6px;
-    border-radius: 6px;
-    border: 3px solid #fff;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    border-radius: 8px;
+    border: 3px solid #e3f2fd;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.2);
 }
 
 .noidung video {
-    margin-top: 12px;
-    border-radius: 6px;
-    border: 3px solid #fff;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    margin-top: 14px;
+    border-radius: 8px;
+    border: 3px solid #e3f2fd;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.2);
 }
 
 /* ===== BẢNG ===== */
 table {
     width: 100%;
     border-collapse: collapse;
-    background: white;
-    border-radius: 6px;
+    background: #ffffff;
+    border-radius: 8px;
     overflow: hidden;
-    box-shadow: 0 0 6px rgba(0,0,0,0.1);
+    box-shadow: 0 3px 8px rgba(0,0,0,0.12);
 }
 
 th {
     background: #1976d2;
     color: white;
-    padding: 10px;
+    padding: 12px;
+    text-align: center;
 }
 
 td {
-    padding: 10px;
-    border-bottom: 1px solid #ddd;
+    padding: 12px;
+    border-bottom: 1px solid #e0e0e0;
 }
 
 tr:nth-child(even) {
-    background: #f2f7ff;
+    background: #f4f8fd;
 }
 
 .tiendo {
-    color: #d32f2f;
+    color: #0d47a1;
     font-weight: bold;
     text-align: center;
 }
 
 /* ===== GÓP Ý ===== */
 .gopy {
-    background: #fffde7;
-    border-left: 6px solid #fbc02d;
-    padding: 15px;
+    background: #e3f2fd;
+    border-left: 6px solid #1e88e5;
+    padding: 18px;
     width: 65%;
-    border-radius: 6px;
-    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
 }
 
 .gopy label {
     font-weight: bold;
+    color: #0d47a1;
 }
 
 input, textarea {
     width: 100%;
-    padding: 6px;
-    margin: 6px 0 12px;
-    border-radius: 4px;
-    border: 1px solid #ccc;
+    padding: 8px;
+    margin: 6px 0 14px;
+    border-radius: 5px;
+    border: 1px solid #90caf9;
+    outline: none;
 }
 
+input:focus, textarea:focus {
+    border-color: #1e88e5;
+    box-shadow: 0 0 5px rgba(30,136,229,0.4);
+}
+
+/* ===== BUTTON ===== */
 button {
-    background: #43a047;
+    background: #1e88e5;
     color: white;
     border: none;
-    padding: 7px 18px;
-    border-radius: 4px;
+    padding: 8px 22px;
+    border-radius: 5px;
     cursor: pointer;
+    font-weight: bold;
 }
 
 button:hover {
-    background: #2e7d32;
+    background: #1565c0;
 }
 
 /* ===== FOOTER ===== */
 .footer {
-    margin-top: 35px;
+    margin-top: 40px;
     text-align: center;
     font-size: 13px;
-    color: #555;
-    padding-top: 10px;
-    border-top: 1px solid #ccc;
+    color: #546e7a;
+    padding-top: 12px;
+    border-top: 1px solid #cfd8dc;
 }
